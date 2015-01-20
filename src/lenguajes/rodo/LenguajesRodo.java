@@ -16,6 +16,7 @@ public class LenguajesRodo {
      */
     public static void main(String[] args) {
         System.out.println("primer programa java 2");
+        System.out.println("lenguajes orientados a objetos ");
     }
   
 }
