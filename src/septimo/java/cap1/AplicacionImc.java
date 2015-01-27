@@ -10,7 +10,7 @@ public class AplicacionImc {
     
     public static void main(String[] args) {
         Imc uno=new Imc();
-       float result= uno.calcular(1.83f, 87);
+       float result= uno.calcular();
         System.out.println("TU IMC ES\t"+result);
     }
     
