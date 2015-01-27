@@ -15,8 +15,7 @@ public class LenguajesRodo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("primer programa java 2");
-        System.out.println("lenguajes orientados a objetos ");
+                System.out.println("lenguajes orientados a objetos ");
     }
   
 }
