@@ -21,8 +21,11 @@ public class CalcularArea {
     cuadrado.setLargo(7);
     cuadrado.Figura();
     
-         
-      
+      Triangulo escaleno=new Triangulo();
+    escaleno.setAncho(6);
+    escaleno.setLargo(7);
+    escaleno.setAnchode(8);    
+    escaleno.Calular_Area();
     }
     
 }
