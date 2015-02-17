@@ -103,9 +103,12 @@ public class ProyectoAreas extends javax.swing.JFrame {
     private void botonCalcularAreaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCalcularAreaActionPerformed
     //pedir el valor del numero al campo de texto
         //y transformarlo a un numero real
+        
         Cuadrado c=new Cuadrado();
+        try{
         c.setLado(Float.parseFloat(textoLado.getText()));
-        etiquetaResultado.setText("El area es :" + c.calcularArea());
+        etiquetaResultado.setText("El area es :" + c.calcularArea());}catch (NumberFormatException e){
+            etiquetaResultado.setText("no es un numero " );}
     }//GEN-LAST:event_botonCalcularAreaActionPerformed
 
     /**
