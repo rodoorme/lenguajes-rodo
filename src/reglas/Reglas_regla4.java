@@ -8,7 +8,8 @@ public class Reglas_regla4 {
   
     public static void main(String[] args) {
       
-        Regla4 error = new Regla4(2);  /*ESTE ERROR ES POR NO HABER PUESTO
+        //Regla4 error = new Regla4(2);  
+        /*ESTE ERROR ES POR NO HABER PUESTO
                                          UN CONSTRUCTOR QUE ESTABLECIERA ARGUMENTOS
                                          QUE SE TENDRIAN QUE SER TIPO INT*/
         
