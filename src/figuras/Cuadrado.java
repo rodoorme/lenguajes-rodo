@@ -11,50 +11,26 @@ package figuras;
  */
 public class Cuadrado {
     
- private float ancho;
- private float largo;
- private String figura;
- 
- public void setAncho(float ancho){
-     this.ancho=ancho; 
+
+ private float lado;
+  public void setLargo(float lado) throws NumeroNoNegativoException{
+     ValidarValorNoNegativo.validar(lado);
+     this.lado=lado;    
  }
- public void setLargo(float largo){
-     this.largo=largo;    
- }
-    public float getAncho(){
-    return ancho;
-    }
+    
     public float getLargo(){
-    return largo;
-    }
-    
-    public void  setFigura(String figura){
-        this.figura=figura;
-    
-    }
-    public String getFigura(){
-    return figura;
-    }
-    
-    public void Figura(){
-        
-                if(figura.equals("cuadrado")){
-                   Calular_Area();}
-                else{
-                    if(figura.equals("rectangulo")){
-                   Calular_Area();}
-                else{
-                  System.out.println("No existe esa informacion");}
-    
-               }
-    }
-public float Calular_Area(){
-float area=largo*largo;
+    return lado;
+    }     public float Calular_Area(){
+float area=lado*lado;
 System.out.println("El area de la figura es : " + area);
-System.out.println("La figura es : " + figura);
+
      return area;
  
 
 
 }
+
+    void setlado() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -16,10 +16,8 @@ public class CalcularArea {
      */
     public static void main(String[] args) {
     Cuadrado cuadrado=new Cuadrado();
-    cuadrado.setFigura("cuadrado");
-    cuadrado.setAncho(7);
-    cuadrado.setLargo(7);
-    cuadrado.Figura();
+       cuadrado.setlado();
+   cuadrado.Calular_Area();
     
       Triangulo escaleno=new Triangulo();
     escaleno.setAncho(6);
