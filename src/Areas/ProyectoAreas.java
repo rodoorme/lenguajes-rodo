@@ -107,7 +107,7 @@ public class ProyectoAreas extends javax.swing.JFrame {
         Cuadrado c=new Cuadrado();
         try{
         c.setLado(Float.parseFloat(textoLado.getText()));
-        etiquetaResultado.setText("El area es :" + c.calcularArea());}catch (NumberFormatException e){
+        etiquetaResultado.setText("El area es :" + c.CalcularArea());}catch ( NumberFormatException  e){
             etiquetaResultado.setText("no es un numero " );}
     }//GEN-LAST:event_botonCalcularAreaActionPerformed
 

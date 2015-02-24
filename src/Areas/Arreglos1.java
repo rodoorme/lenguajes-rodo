@@ -44,7 +44,10 @@ public class Arreglos1 {
     
       for(int algo:x){
             System.out.println(algo);
-    
+    Triangulo t=new Triangulo();
+   t.setAncho(3);
+     t.setLargo(2);
+    t.Calular_Area();
     //S´PER FOR AVENGER FOR MEJORADO
     }
     }

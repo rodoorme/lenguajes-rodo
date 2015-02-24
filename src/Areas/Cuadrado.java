@@ -1,6 +1,6 @@
 
 package Areas;
-public class Cuadrado {
+public class Cuadrado  implements Superficies{
     private float lado;
 
     
@@ -20,7 +20,7 @@ public class Cuadrado {
         this.lado = lado;
     }
     
-    float calcularArea(){
+    public float CalcularArea(){
         float area=lado*lado;
         return area;
     }
