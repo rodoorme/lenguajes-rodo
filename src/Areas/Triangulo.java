@@ -33,17 +33,14 @@ public class Triangulo  implements Superficies {
     return largo;
     }
     
-    public float Calular_Area(){
-float are=largo*base/2;
-        return are; 
-         
+    
 
-
- 
-} 
-
-    @Override
     public float CalcularArea() {
+       float are=largo*base/2;
+        return are; 
+    }
+
+    void CalularArea() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

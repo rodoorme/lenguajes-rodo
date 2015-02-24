@@ -36,15 +36,13 @@ private float ancho;
     public String getFigura(){
     return figura;
     }
-    public void CalularArea(){
-float area=largo*ancho;
+  
+
+   
+    public float CalcularArea() {
+        float area=largo*ancho;
 System.out.println("El area de la figura es : " + area);
 System.out.println("La figura es : " + figura);
- 
-} 
-
-    @Override
-    public float CalcularArea() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    return area;
     }
 }

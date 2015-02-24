@@ -47,7 +47,7 @@ public class Arreglos1 {
     Triangulo t=new Triangulo();
    t.setAncho(3);
      t.setLargo(2);
-    t.Calular_Area();
+    t.CalcularArea();
     //S´PER FOR AVENGER FOR MEJORADO
     }
     }
