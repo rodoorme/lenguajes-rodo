@@ -41,8 +41,7 @@ private float ancho;
    
     public float CalcularArea() {
         float area=largo*ancho;
-System.out.println("El area de la figura es : " + area);
-System.out.println("La figura es : " + figura);
+System.out.print("El area del rectangulo es : " );
     return area;
     }
 }

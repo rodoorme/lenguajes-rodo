@@ -21,7 +21,8 @@ public class Cuadrado  implements Superficies{
     }
     
     public float CalcularArea(){
-        float area=lado*lado;
+       System.out.print("el area del cuadrado es:");
+       float area=lado*lado;
         return area;
     }
 }

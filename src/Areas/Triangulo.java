@@ -35,12 +35,10 @@ public class Triangulo  implements Superficies {
     
     
 
-    public float CalcularArea() {
-       float are=largo*base/2;
+   public float CalcularArea() {      
+    
+    System.out.print("el area del triangulo es");
+        float are=largo*base/2f;
         return are; 
-    }
-
-    void CalularArea() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
