@@ -13,7 +13,7 @@ public class ProbarThreads {
           Facil t11=new Facil();
         Regular r1=new Regular();
         Thread t2=new Thread(r1);
-       
+          Relojito t4=new Relojito();
         Thread t3 = new Thread(
                 new  Runnable(){
                     
@@ -29,6 +29,7 @@ public class ProbarThreads {
                 
     t1.setName("petra");
      t1.start(); 
+  t4.start();
       t11.start();   
      t2.start();
      t3.start();
